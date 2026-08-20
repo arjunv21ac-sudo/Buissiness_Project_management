@@ -43,7 +43,7 @@ public class AdminController {
 	private String email;
 	private User user;
 
-	// Validating login 
+	// Validating login .....
 	@GetMapping("/adminLogin")
 	public String  getAllData(  @ModelAttribute("adminLogin") AdminLogin login, Model model)
 	{
